@@ -41,14 +41,14 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `name`, `pic`, `details`, `date`) VALUES
-(1, 'Capsule', 'cap.png', 'these are capsules whisd some k dsfksd', '2017-11-03 04:58:57'),
-(2, 'Tablets', 'tablet.png', 'some of the pic to be modii dfs tablet', '2017-11-03 04:58:57'),
-(3, 'Syrup', 'syrup.png', 'these are capsules whisd some k dsfksd', '2017-11-03 04:59:24'),
-(4, 'Cream', 'cream.png', 'some of the pic to be modii dfs tablet', '2017-11-03 04:59:24'),
-(5, 'Lotion', 'lotion.png', 'these are capsules whisd some k dsfksd', '2017-11-03 04:59:59'),
-(6, 'Syrunj', 'syrunj.png', 'some of the pic to be modii dfs tablet', '2017-11-03 04:59:59'),
-(7, 'Injection', 'injection.jpg', 'these are capsules whisd some k dsfksd', '2017-11-03 05:00:19'),
-(8, 'Other', 'fk.jpg', 'some of the pic to be modii dfs tablet', '2017-11-03 05:00:19');
+(1, 'Capsule', 'cap.png', 'these are capsules whisd some k dsfksd', '2023-11-03 04:58:57'),
+(2, 'Tablets', 'tablet.png', 'some of the pic to be modii dfs tablet', '2023-11-03 04:58:57'),
+(3, 'Syrup', 'syrup.png', 'these are capsules whisd some k dsfksd', '2023-11-03 04:59:24'),
+(4, 'Cream', 'cream.png', 'some of the pic to be modii dfs tablet', '2023-11-03 04:59:24'),
+(5, 'Lotion', 'lotion.png', 'these are capsules whisd some k dsfksd', '2023-11-03 04:59:59'),
+(6, 'Syrunj', 'syrunj.png', 'some of the pic to be modii dfs tablet', '2023-11-03 04:59:59'),
+(7, 'Injection', 'injection.jpg', 'these are capsules whisd some k dsfksd', '2023-11-03 05:00:19'),
+(8, 'Other', 'fk.jpg', 'some of the pic to be modii dfs tablet', '2023-11-03 05:00:19');
 
 -- --------------------------------------------------------
 
@@ -74,21 +74,21 @@ CREATE TABLE `inventeries` (
 --
 
 INSERT INTO `inventeries` (`id`, `catId`, `supplier`, `name`, `unit`, `price`, `pic`, `description`, `company`, `date`) VALUES
-(5, 2, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', 'fasdf', '2017-11-03 06:10:37'),
-(6, 2, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', 'sdfas', '2017-11-03 06:10:40'),
-(7, 2, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:10:43'),
-(9, 2, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:10:48'),
-(10, 3, 'Arif Khan', 'Disprin', '6mg', '6', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:11:36'),
-(11, 3, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:11:43'),
-(12, 4, 'Arif Khan', 'Disprin', '6mg', '8', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:11:50'),
-(13, 4, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:11:53'),
-(14, 4, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:11:56'),
-(15, 5, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:12:03'),
-(16, 6, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:12:09'),
-(17, 6, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:12:14'),
-(18, 6, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:12:17'),
-(19, 6, 'Arif Khan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2017-11-03 06:12:21'),
-(20, 1, 'Asif Khan', 'Panadol', '100mg', '12', '', 'there is no askdfas dfsakdfkas', 'atalfa', '2017-11-17 16:20:25');
+(5, 2, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', 'fasdf', '2023-11-03 06:10:37'),
+(6, 2, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', 'sdfas', '2023-11-03 06:10:40'),
+(7, 2, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:10:43'),
+(9, 2, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:10:48'),
+(10, 3, 'Narayan', 'Disprin', '6mg', '6', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:11:36'),
+(11, 3, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:11:43'),
+(12, 4, 'Narayan', 'Disprin', '6mg', '8', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:11:50'),
+(13, 4, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:11:53'),
+(14, 4, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:11:56'),
+(15, 5, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:12:03'),
+(16, 6, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:12:09'),
+(17, 6, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:12:14'),
+(18, 6, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:12:17'),
+(19, 6, 'Narayan', 'Disprin', '6mg', '7', 'fk.jpg', 'these are 2mg disprin for the cure of some thing extera', '0', '2023-11-03 06:12:21'),
+(20, 1, 'Narayan', 'Panadol', '100mg', '12', '', 'there is no askdfas dfsakdfkas', 'atalfa', '2023-11-17 16:20:25');
 
 -- --------------------------------------------------------
 
@@ -131,9 +131,9 @@ CREATE TABLE `sold` (
 --
 
 INSERT INTO `sold` (`id`, `name`, `contact`, `discount`, `item`, `amount`, `userId`, `date`) VALUES
-(2, 'khan Shoaib', '03445584686', '10', '2', '3', 1, '2017-11-17 15:44:15'),
-(3, 'sdfgsd', 'dsfgsdf', '10', '3', '25', 1, '2017-11-17 16:47:22'),
-(4, 'Younis', '03451212345', '21', '4', '35', 1, '2017-11-19 08:22:46');
+(2, 'Surabhi', '03445584686', '10', '2', '3', 1, '2023-11-17 15:44:15'),
+(3, 'Koustubha', 'dsfgsdf', '10', '3', '25', 1, '2023-11-17 16:47:22'),
+(4, 'Chaitra', '03451212345', '21', '4', '35', 1, '2023-11-19 08:22:46');
 
 -- --------------------------------------------------------
 
@@ -156,11 +156,11 @@ CREATE TABLE `supplier` (
 --
 
 INSERT INTO `supplier` (`id`, `name`, `pic`, `number`, `address`, `cnic`, `date`) VALUES
-(1, 'faisal khan', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2017-11-03 07:23:49'),
-(2, 'faisal khan', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2017-11-03 07:23:53'),
-(3, 'faisal khan', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2017-11-03 07:23:56'),
-(4, 'faisal khan', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2017-11-03 07:23:59'),
-(5, 'faisal khan', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2017-11-03 07:24:01');
+(1, 'Nikhil', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2023-11-03 07:23:49'),
+(2, 'Nikhil', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2023-11-03 07:23:53'),
+(3, 'Nikhil', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2023-11-03 07:23:56'),
+(4, 'Nikhil', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2023-11-03 07:23:59'),
+(5, 'Nikhil', 'fk.jpg', '2432342342', 'adfasdfasfdasdf', '2342342342423423', '2023-11-03 07:24:01');
 
 -- --------------------------------------------------------
 
@@ -183,7 +183,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `name`, `pic`, `number`, `date`) VALUES
-(1, 'admin@gmail.com', 'admin', 'FK', 'fk.jpg', '03356910260', '2017-11-02 12:34:53');
+(1, 'admin@gmail.com', 'admin', 'FK', 'fk.jpg', '03356910260', '2023-03-11 12:34:53');
 
 --
 -- Indexes for dumped tables
